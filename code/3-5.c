@@ -13,7 +13,6 @@ void my_sum(char typ, int count, ...){
             printf("%s ", va_arg(ap, char*));
             
         }
-        printf("\n");
     }
     else if(typ == 'C'){
         for(int i=0; i<count; i++){
